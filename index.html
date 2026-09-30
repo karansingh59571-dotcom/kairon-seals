@@ -38,13 +38,25 @@ header{
 }
 
 .logo{
-  font-size:22px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo img{
+  width:42px;
+  height:42px;
+  object-fit:contain;
+  border-radius:8px;
+}
+
+.logo span{
+  font-size:20px;
   font-weight:900;
   letter-spacing:1px;
   color:#fff;
   white-space:nowrap;
 }
-
 nav a{
   color:#fff;
   text-decoration:none;
@@ -289,8 +301,9 @@ footer strong{
 <header>
 
   <div class="logo">
-    𝙆𝘼𝙄𝙍𝙊𝙉 𝙎𝙀𝘼𝙇𝙎
-  </div>
+  <img src="kairon-logo.png" alt="KAIRON SEALS">
+  <span>𝙆𝘼𝙄𝙍𝙊𝙉 𝙎𝙀𝘼𝙇𝙎</span>
+</div>
 
   <nav>
     <a href="#phones">MOBILES</a>
